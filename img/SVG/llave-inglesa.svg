@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="95" height="95" viewBox="0 0 95 95">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e0062c"/>
+      <stop offset="0.452" stop-color="#e22223"/>
+      <stop offset="1" stop-color="#e8630d"/>
+    </linearGradient>
+  </defs>
+  <g id="llave-inglesa" transform="translate(0 0)">
+    <g id="Grupo_5" data-name="Grupo 5" transform="translate(0 0)">
+      <path id="Trazado_54" data-name="Trazado 54" d="M93.11,16.884a2.806,2.806,0,0,0-4.592-.95L74.047,30.406l-7.78-1.673-1.673-7.78L79.065,6.481a2.806,2.806,0,0,0-.95-4.592A26.761,26.761,0,0,0,42.468,33.957L3.847,72.577A13.135,13.135,0,1,0,22.423,91.153l38.62-38.62A26.762,26.762,0,0,0,93.11,16.884Z" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>
