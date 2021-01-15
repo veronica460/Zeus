@@ -701,6 +701,152 @@ footer{
     font-size: 42px;
 }
 
+
+/*Servicios*/
+.serv{
+    font-size: 40px;
+}
+.baja{
+    font-size: 28px;
+}
+.cardc{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #707070;
+}
+.line2{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 2px;
+    background: #707070;
+    margin-bottom: 60px;
+    margin-top: 5%;
+}
+.card2{
+    width: 30%;
+    height: 340px;
+    padding: 30px 0;
+    overflow: hidden;
+    background: #F1F1F1;
+    border-radius: 10px;
+    position: relative;
+    text-align: right;
+    margin-bottom: 60px;
+    box-shadow: 0 0 6px var(--color_shadow);
+    margin-right: 15%;
+}
+.img1{
+    width: 30%;
+    height: 355px;
+    display: flex;
+}
+.img2{
+    width: 30%;
+    height: 20pxpx;
+}
+.img3{
+    width: 30%;
+    height: 20pxpx;
+}
+.linea3{
+    width: 20%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 5px;
+    background: #E22223;
+    margin-bottom: 60px;
+    margin-top: -2.5%;
+    margin-right: 85%;
+}
+.zeus{
+    font-size: 42px;
+    margin-top: -8%;
+    margin-left: 26%;
+}
+.copyserv{
+    font-size: 32px;
+}
+.fluke{
+    font-size: 30px;
+    color: #E22223;
+}
+.des{
+    color: #707070;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tfluke{
+    color: #707070;
+    text-align: center;
+    font-size: 42px;
+}
+.t_fluke{
+    color: #707070;
+    text-align: center;
+    font-size: 42px;
+    margin-top: -7%;
+    margin-right: 22%;
+}
+.par{
+    font-size: 22px;
+    color: #707070;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.phone{
+    color: #E22223;
+    font-size: 45px;
+    margin-top: 10%;
+    text-align: center;
+    margin-right: 10%;
+}
+.inspec{
+    height: 400px;
+    margin-top: 19%;
+    box-shadow: 0 0 18px var(--color_shadow);
+}
+.cardS{
+    width: 30%;
+    padding: 30px 0;
+    overflow: hidden;
+    background: #F1F1F1;
+    border-radius: 10px;
+    position: relative;
+    text-align: right;
+    margin-bottom: 60px;
+    box-shadow: 0 0 6px var(--color_shadow);
+    margin-left: 15%;
+}
+.cardSe{
+    width: 30%;
+    padding: 30px 0;
+    overflow: hidden;
+    background: #F1F1F1;
+    border-radius: 10px;
+    position: relative;
+    text-align: right;
+    margin-bottom: 60px;
+    box-shadow: 0 0 6px var(--color_shadow);
+    margin-right: 15%;
+}
+.flukeCard{
+    width: 30%;
+    height: 230px;
+    background: #E9E9E9;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 30px;
+    margin-left: 15%;
+}
+.fluke__card{
+    width: 30%;
+    height: 230px;
+    background: #E9E9E9;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 30px;
+    margin-right: 15%;
+}
+
 @media screen and (max-width:1024px){
     .linea2{
         width: 15%;
@@ -791,6 +937,13 @@ footer{
     .mision{
         height: 210px;
         width: 250px;
+    }
+    .t_fluke{
+        color: #707070;
+        text-align: center;
+        font-size: 42px;
+        margin-top: -10%;
+        margin-right: 22%;
     }
 }
 @media screen and (max-width:900px){
@@ -918,6 +1071,92 @@ footer{
     }
     .reparando{
         margin-top: 10%;
+    }
+    .copyserv{
+        font-size: 25px;
+    }
+    .card2{
+        width: 50%;
+        height: 420px;
+        padding: 30px 0;
+        overflow: hidden;
+        background: #F1F1F1;
+        border-radius: 10px;
+        position: relative;
+        text-align: right;
+        margin-bottom: 60px;
+        box-shadow: 0 0 6px var(--color_shadow);
+        margin-right: 15%;
+    }
+    .t_fluke{
+        color: #707070;
+        text-align: center;
+        font-size: 42px;
+        margin-top: -12%;
+        margin-left: 25%;
+    }
+    .fluke{
+        font-size: 22px;
+    }
+    .flukeCard{
+        width: 30%;
+        height: 285px;
+        background: #E9E9E9;
+        border-radius: 10px;
+        position: relative;
+        margin-bottom: 30px;
+        margin-left: 15%;
+    }
+    .fluke__card{
+        width: 30%;
+        height: 285px;
+        background: #E9E9E9;
+        border-radius: 10px;
+        position: relative;
+        margin-bottom: 30px;
+        margin-right: 15%;
+    }
+    .cardS{
+        width: 50%;
+        padding: 30px 0;
+        overflow: hidden;
+        background: #F1F1F1;
+        border-radius: 10px;
+        position: relative;
+        text-align: right;
+        margin-bottom: 60px;
+        box-shadow: 0 0 6px var(--color_shadow);
+        margin-left: 15%;
+    }
+    .cardSe{
+        width: 50%;
+        padding: 30px 0;
+        overflow: hidden;
+        background: #F1F1F1;
+        border-radius: 10px;
+        position: relative;
+        text-align: right;
+        margin-bottom: 60px;
+        box-shadow: 0 0 6px var(--color_shadow);
+        margin-right: 15%;
+    }
+    .flukeCard{
+        width: 50%;
+        height: 230px;
+        background: #E9E9E9;
+        border-radius: 10px;
+        position: relative;
+        margin-bottom: 30px;
+        margin-left: 15%;
+    }
+    .fluke__card{
+        width: 50%;
+        height: 230px;
+        background: #E9E9E9;
+        border-radius: 10px;
+        position: relative;
+        margin-bottom: 30px;
+        margin-right: 15%;
     }
 }
 
@@ -1067,7 +1306,25 @@ footer{
     .bnos{
         width: 49%;
     }
-    
+    .copyserv{
+        font-size: 20px;
+    }
+    .t_fluke{
+        color: #707070;
+        text-align: center;
+        font-size: 35px;
+        margin-top: -17%;
+        margin-left: 25%;
+    }
+    .tfluke{
+        font-size: 35px;
+    }
+    .par{
+        font-size: 17px;
+    }
+    .phone{
+        font-size: 32px;
+    }
 }
 
 @media screen and (max-width:500px){
@@ -1205,5 +1462,36 @@ footer{
     .reparando{
         height: 270px;
         margin-top: 10%;
+    }
+    .cardS{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .card2{
+        width: 100%;
+        height: 420px;
+        margin-right: 0%;
+    }
+    .cardSe{
+        width: 95%;
+        margin-right: 0%;
+    }
+    .flukeCard{
+        width: 95%;
+        margin-left: 0%;
+    }
+    .fluke__card{
+        width: 95%;
+        margin-right: 0%;
+    }
+    .par{
+        font-size: 17px;
+    }
+    .tfluke{
+        font-size: 30px;
+    }
+    .t_fluke{
+        font-size: 29px;
+        margin-top: -29%;
     }
 }
