@@ -479,15 +479,7 @@ nav .enlaces a:hover{
 .check__copy{
     font-weight: 300;
 }
-.newsletter{
-    margin: 0 auto;
-    width: 60%;
-    margin-top: 40px;
-    height: auto;
-    font-family: inherit;
-    position: relative;
-    border-radius: 6px;
-}
+
 .newsletter--modifier{
     margin: 0;
     width: 80%;
@@ -847,6 +839,90 @@ footer{
     margin-right: 15%;
 }
 
+
+/*Contacto*/
+.contac{
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3%;
+}
+.contac1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
+}
+.copycont{
+    font-size: 42px;
+    margin-top: 3%;
+}
+.tcont{
+    font-size: 40px;
+}
+.newsletter{
+    margin: 0 auto;
+    width: 60%;
+    margin-top: 40px;
+    height: auto;
+    font-family: inherit;
+    position: relative;
+    border-radius: 6px;
+    margin-top: 15%;
+}
+.newsletter__input{
+    width: 98%;
+    height: 100%;
+    padding: 22px 10px;
+    outline: none;
+    font-family: inherit;
+    border-radius: 6px;
+    border: 1px solid var(--black1);
+    margin-top: 2%;
+}
+.area{
+    padding: 18px 10px;
+    outline: none;
+    font-family: inherit;
+    border-radius: 6px;
+    border: 1px solid var(--black1);
+    margin-top: -20%;
+}
+.ctab{
+    width: 22%;
+    text-align: center;
+    padding: 12px 10px;
+    display: inline-block;
+    background: #e32c20;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    box-shadow: var(--shadow) var(--color_shadow);
+    border-radius: 6px;
+    font-size: 22px;
+    margin-top: 5%;
+    margin-left: 35%;
+}
+.imgUbi{
+    margin-left: 40%;
+    margin-top: -50%;
+}
+.t1{
+    font-size: 25px;
+    color: #E22223;
+    text-align: center;
+}
+.t2{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #707070;
+    text-align: center;
+    margin-top: 4%;
+}
+.t3{
+    font-size: 17px;
+    color: #E22223;
+    text-align: center;
+    margin-top: 4%;
+}
+
 @media screen and (max-width:1024px){
     .linea2{
         width: 15%;
@@ -944,6 +1020,18 @@ footer{
         font-size: 42px;
         margin-top: -10%;
         margin-right: 22%;
+    }
+    .area{
+        padding: 18px 10px;
+        outline: none;
+        font-family: inherit;
+        border-radius: 6px;
+        border: 1px solid var(--black1);
+        margin-top: -20%;
+        width: 98%;
+    }
+    .imgUbi{
+        width: 60%;
     }
 }
 @media screen and (max-width:900px){
@@ -1158,6 +1246,14 @@ footer{
         margin-bottom: 30px;
         margin-right: 15%;
     }
+    .contac{
+        font-size: 25px;
+    }
+    .imgUbi{
+        width: 65%;
+        margin-top: -2%;
+        margin-left: 20%;
+    }
 }
 
 @media screen and (max-width:700px){
@@ -1325,6 +1421,13 @@ footer{
     .phone{
         font-size: 32px;
     }
+    .contac{
+        font-size: 22px;
+    }
+    .imgUbi{
+        width: 75%;
+        margin-left: 12%;
+    }
 }
 
 @media screen and (max-width:500px){
@@ -1424,8 +1527,8 @@ footer{
         width: 90%;
     }
     .newsletter{
-        width: 100%;
-        display: none;
+        width: 90%;
+        display: block;
     }
     .newsletter--modifier{
         display: block;
@@ -1493,5 +1596,16 @@ footer{
     .t_fluke{
         font-size: 29px;
         margin-top: -29%;
+    }
+    .copycont{
+        font-size: 26px;
+    }
+    .imgUbi{
+        width: 95%;
+        margin-left: 2%;
+    }
+    .ctab{
+        width: 40%;
+        margin-left: 29%;
     }
 }
