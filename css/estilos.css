@@ -266,6 +266,7 @@ nav .enlaces a:hover{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    z-index: -1;
 }
 .card{
     width: 30%;
@@ -277,7 +278,7 @@ nav .enlaces a:hover{
     text-align: right;
     margin-bottom: 60px;
     box-shadow: 0 0 6px var(--color_shadow);
-    z-index: -1;
+   
 }
 .card__img{
     text-align: left;
@@ -529,7 +530,6 @@ footer{
 .contactanos{
     width: 40%;
     color: #fff;
-    z-index: 1;
 }
 .contactanos img{
     height: 59px;
