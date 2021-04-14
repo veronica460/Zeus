@@ -387,7 +387,7 @@ nav .enlaces a:hover{
     border-radius: 10px;
     position: relative;
     margin-bottom: 30px;
-    z-index: -1;
+    z-index: 1;
 }
 .testimony__img{
     width: 100%;
@@ -529,7 +529,7 @@ footer{
 .contactanos{
     width: 40%;
     color: #fff;
-    z-index: -1;
+    z-index: 1;
 }
 .contactanos img{
     height: 59px;
