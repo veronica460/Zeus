@@ -277,6 +277,7 @@ nav .enlaces a:hover{
     text-align: right;
     margin-bottom: 60px;
     box-shadow: 0 0 6px var(--color_shadow);
+    z-index: -1;
 }
 .card__img{
     text-align: left;
@@ -386,6 +387,7 @@ nav .enlaces a:hover{
     border-radius: 10px;
     position: relative;
     margin-bottom: 30px;
+    z-index: -1;
 }
 .testimony__img{
     width: 100%;
@@ -527,6 +529,7 @@ footer{
 .contactanos{
     width: 40%;
     color: #fff;
+    z-index: -1;
 }
 .contactanos img{
     height: 59px;
